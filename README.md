@@ -1,2 +1,2 @@
-# Online-Store-With-Angular-Nodejs-Expressjs
+# Online-Store-In-Angular-Nodejs-Expressjs
 *Project in progress
