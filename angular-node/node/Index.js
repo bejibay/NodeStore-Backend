@@ -10,3 +10,5 @@ var app = express;
 http.createServer(req,res,function(){
 res.end();
 }
+server.listen(port, function(){"server is listening on
+port 3000";});
