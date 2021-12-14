@@ -15,3 +15,10 @@ This is built with Angular
 
 ## Back end Application
 This is built with nodejs and MongoDB
+
+## Project SetUp
+Create a working directory in your machine and call
+it anything eg angularnode-project.
+Also in your working directory create two subdirectories- one for the
+ angular project and the other for node project
+
