@@ -1,5 +1,13 @@
 var mongoose = require('mongoose');
-mongoose.connect('api-url');
+
+mongoose.connect('api-url').then(()=>{
+console.log('successfully connected to DB');
+
+})
+.catch((error)=>{console.log('failed connection to DB');
+console.error(error);
+});
+
 var productSchema = mongoose.Schema({
 title:{type:String, required:true},
 description:{type:String, required:true},
@@ -8,4 +16,4 @@ price:{type:Number, required:true},
 imageUrl:{type:String, required:true}
 });
 
-module.export = schema;
+module.exports = mongoose.model('Product' productSchema);
