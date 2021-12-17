@@ -1,9 +1,7 @@
 var http = require('http');
-var app = require('/app');
-var port = 3000;
+var app = require('./app');
+app.set('port' process.env.PORT||3000);
 
-var server = http.createServer(req,res,function(){
-res.end();
+var server = http.createServer(app);
 }
-server.listen(port, function(){"server is listening on
-port 3000";});
+server.listen(process.env.PORT||3000);
