@@ -1,6 +1,6 @@
 var express = require ('express');
 var mongoose = require('mongoose');
-var ProductModel = require('../database/dbase');
+var Thing = require('../database/dbase');
 
 exports.createOneThing = (req,res)=>{
 const thing = new Thing({title:req.body.title,
