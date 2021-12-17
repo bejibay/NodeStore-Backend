@@ -6,3 +6,5 @@ Router.post('/','createOneThing.stuffRoute');
 Router.get('/:id','getOneThing.stuffRoute');
 Router.put('/','modifyOneThing.stuffRoute');
 Router.get('/','getAllThings.stuffRoute');
+Router.delete('/:id','deleteOneThing');
+module.exports = router;
