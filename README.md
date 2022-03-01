@@ -5,7 +5,7 @@
 and Mongodb
 * The back end has APIs for create, read, update and delete
 of products
-* With Angular HttpClientModule relevant data are fetch data 
+* With Angular HttpClientModule relevant data are fetched 
 from the backend for display
 
 
