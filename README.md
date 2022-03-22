@@ -1,12 +1,11 @@
-# BuildYourStore
-* This makes it possible to create a product from a user account
-* The frontend application is built with Angular
-* The backend application is built wirh Nodejs, Expressjs 
+# NodeStore
+* This consists of CRUD API's for creating account and selling
+at online store.
+* The application is built with Nodejs, Expressjs 
 and Mongodb
-* The back end has APIs for create, read, update and delete
-of products
-* With Angular HttpClientModule relevant data are fetched 
-from the backend for display
+* These API's can be called from a front end application 
+using relevant HTTP requests witj Ajax, Fetch API,
+Axios library or Angular HttpClient.
 
 
 
